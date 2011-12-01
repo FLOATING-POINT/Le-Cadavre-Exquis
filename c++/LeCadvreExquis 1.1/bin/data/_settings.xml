@@ -1,0 +1,10 @@
+<controls>
+    <Toggle_debug>
+        <name>debug</name>
+        <value>0</value>
+    </Toggle_debug>
+    <SliderFloat_Skeletal_Offset_Y>
+        <name>Skeletal Offset Y</name>
+        <value>25.436001</value>
+    </SliderFloat_Skeletal_Offset_Y>
+</controls>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="release" />
+	<File name="..\..\..\addons\ofxOpenCv\src\ofxCvBlob.h" open="0" top="0" tabpos="11">
+		<Cursor position="347" topLine="22" />
+	</File>
+	<File name="..\..\..\addons\ofxOpenCv\src\ofxCvColorImage.h" open="0" top="0" tabpos="12">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="..\..\..\addons\ofxOpenCv\src\ofxOpenCv.h" open="0" top="0" tabpos="10">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="..\..\..\addons_nonCore\ofxEOSRemoteCapture\src\ofxEOSRemoteCapture.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="2183" topLine="57" />
+	</File>
+	<File name="..\..\..\addons_nonCore\ofxHttpUtils\src\ofxHttpUtils.cpp" open="0" top="0" tabpos="9">
+		<Cursor position="4274" topLine="138" />
+	</File>
+	<File name="..\..\..\addons_nonCore\ofxHttpUtils\src\ofxHttpUtils.h" open="0" top="0" tabpos="8">
+		<Cursor position="2311" topLine="87" />
+	</File>
+	<File name="..\..\..\addons_nonCore\ofxMSAInteractiveObject\src\ofxMSAInteractiveObject.h" open="0" top="0" tabpos="0">
+		<Cursor position="3693" topLine="62" />
+	</File>
+	<File name="src\CanonCameraWrapper.cpp" open="1" top="0" tabpos="8">
+		<Cursor position="23736" topLine="224" />
+	</File>
+	<File name="src\CanonCameraWrapper.h" open="0" top="0" tabpos="0">
+		<Cursor position="652" topLine="0" />
+	</File>
+	<File name="src\canonCapture.cpp" open="1" top="1" tabpos="5">
+		<Cursor position="2358" topLine="33" />
+	</File>
+	<File name="src\canonCapture.h" open="1" top="0" tabpos="7">
+		<Cursor position="950" topLine="18" />
+	</File>
+	<File name="src\countDownObject.cpp" open="1" top="0" tabpos="11">
+		<Cursor position="341" topLine="0" />
+	</File>
+	<File name="src\countDownObject.h" open="1" top="0" tabpos="12">
+		<Cursor position="255" topLine="5" />
+	</File>
+	<File name="src\imagesPlayback.cpp" open="1" top="0" tabpos="6">
+		<Cursor position="1353" topLine="25" />
+	</File>
+	<File name="src\imagesPlayback.h" open="0" top="0" tabpos="11">
+		<Cursor position="282" topLine="0" />
+	</File>
+	<File name="src\lceInterface.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="8477" topLine="120" />
+	</File>
+	<File name="src\lceInterface.h" open="1" top="0" tabpos="1">
+		<Cursor position="2862" topLine="62" />
+	</File>
+	<File name="src\lceInterfaceObject.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="705" topLine="77" />
+	</File>
+	<File name="src\lceInterfaceObject.h" open="0" top="0" tabpos="2">
+		<Cursor position="2275" topLine="39" />
+	</File>
+	<File name="src\main.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="216" topLine="0" />
+	</File>
+	<File name="src\ofQTVideoSaverWrapper.cpp" open="1" top="0" tabpos="13">
+		<Cursor position="1076" topLine="9" />
+	</File>
+	<File name="src\ofQTVideoSaverWrapper.h" open="0" top="0" tabpos="9">
+		<Cursor position="472" topLine="0" />
+	</File>
+	<File name="src\ofQtVideoSaver.cpp" open="0" top="0" tabpos="13">
+		<Cursor position="14289" topLine="82" />
+	</File>
+	<File name="src\ofQtVideoSaver.h" open="0" top="0" tabpos="7">
+		<Cursor position="1125" topLine="26" />
+	</File>
+	<File name="src\ofTracker.h" open="0" top="0" tabpos="0">
+		<Cursor position="1838" topLine="42" />
+	</File>
+	<File name="src\openNIWrapper.cpp" open="1" top="0" tabpos="9">
+		<Cursor position="10035" topLine="268" />
+	</File>
+	<File name="src\openNIWrapper.h" open="1" top="0" tabpos="10">
+		<Cursor position="2443" topLine="60" />
+	</File>
+	<File name="src\testApp.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="2590" topLine="68" />
+	</File>
+	<File name="src\testApp.h" open="1" top="0" tabpos="3">
+		<Cursor position="732" topLine="11" />
+	</File>
+</CodeBlocks_layout_file>

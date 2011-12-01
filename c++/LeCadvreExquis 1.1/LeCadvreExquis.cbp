@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="LeCadvreExquis" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="addons\;src\;" />
+		<Build>
+			<Target title="release">
+				<Option output="bin\$(PROJECT_NAME)" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj\release" />
+				<Option external_deps="..\..\..\libs\openFrameworksCompiled\lib\win_cb\openFrameworks.lib;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="../../../libs/openFrameworksCompiled/lib/win_cb/openFrameworks.lib" />
+				</Linker>
+			</Target>
+			<Target title="debug">
+				<Option output="bin\$(PROJECT_NAME)_DEBUG" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj\debug\" />
+				<Option external_deps="..\..\..\libs\openFrameworksCompiled\lib\win_cb\openFrameworksDebug.lib;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="../../../libs/openFrameworksCompiled/lib/win_cb/openFrameworksDebug.lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wno-multichar" />
+			<Add directory="..\..\..\libs\glu\include" />
+			<Add directory="..\..\..\libs\freetype\include" />
+			<Add directory="..\..\..\libs\freetype\include\freetype2" />
+			<Add directory="..\..\..\libs\FreeImage\include" />
+			<Add directory="..\..\..\libs\quicktime\include" />
+			<Add directory="..\..\..\libs\rtAudio\include" />
+			<Add directory="..\..\..\libs\fmodex\include" />
+			<Add directory="..\..\..\libs\videoInput\include" />
+			<Add directory="..\..\..\libs\glee\include" />
+			<Add directory="..\..\..\libs\glut\include" />
+			<Add directory="..\..\..\libs\openFrameworks" />
+			<Add directory="..\..\..\libs\openFrameworks\app" />
+			<Add directory="..\..\..\libs\openFrameworks\events" />
+			<Add directory="..\..\..\libs\openFrameworks\graphics" />
+			<Add directory="..\..\..\libs\openFrameworks\utils" />
+			<Add directory="..\..\..\libs\openFrameworks\sound" />
+			<Add directory="..\..\..\libs\openFrameworks\video" />
+			<Add directory="..\..\..\libs\openFrameworks\communication" />
+			<Add directory="..\..\..\libs\poco\include" />
+			<Add directory="..\..\..\addons_nonCore\ofxEOSRemoteCapture\dll" />
+			<Add directory="..\..\..\addons_nonCore\ofxEOSRemoteCapture\lib\include" />
+			<Add directory="..\..\..\addons_nonCore\ofxEOSRemoteCapture\lib\lib" />
+			<Add directory="..\..\..\addons_nonCore\ofxEOSRemoteCapture\src" />
+			<Add directory="..\..\..\addons_nonCore\ofxCvHaarFinder\src" />
+			<Add directory="..\..\..\addons\ofxOpenCv\src" />
+			<Add directory="..\..\..\addons\ofxOpenCv\libs\opencv\include" />
+			<Add directory="..\..\..\addons\ofxOpenCv\libs\opencv\lib\win_cb" />
+			<Add directory="..\..\..\addons\ofxOpenCv\libs\opencv\lib\win32" />
+			<Add directory="..\..\..\addons_nonCore\ofxImage\src" />
+			<Add directory="..\..\..\addons\ofxXmlSettings\src" />
+			<Add directory="..\..\..\addons_nonCore\ofxHttpUtils\src" />
+			<Add directory="..\..\..\addons\ofxXmlSettings\libs" />
+			<Add directory="..\..\..\addons\ofxThread\src" />
+			<Add directory="..\..\..\addons\ofxVectorMath\src" />
+			<Add directory="src\openNI" />
+			<Add directory="src\openNI\Include\Win32" />
+			<Add directory="src\openNI\Include" />
+			<Add directory="..\..\..\addons_nonCore\ofxMSAInteractiveObject\src" />
+			<Add directory="..\..\..\addons_nonCore\ofxSimpleGuiToo\src" />
+			<Add directory="..\..\..\addons_nonCore\ofxSimpleGuiToo\src\Controls" />
+		</Compiler>
+		<Linker>
+			<Add option="../../../libs/FreeImage/lib/win_cb/FreeImage.lib" />
+			<Add option="../../../libs/rtAudio/lib/win_cb/RtAudio.a" />
+			<Add option="../../../libs/quicktime/lib/win_cb/qtmlClient.lib" />
+			<Add option="../../../libs/freetype/lib/win_cb/libfreetype.a" />
+			<Add option="../../../libs/glut/lib/win_cb/libglut.a" />
+			<Add option="../../../libs/videoInput/lib/win_cb/videoInputLib.a" />
+			<Add option="../../../libs/fmodex/lib/win_cb/libfmodex.a" />
+			<Add option="../../../libs/glee/lib/win_cb/GLee.lib" />
+			<Add option="../../../libs/glu/lib/win_cb/glu32.lib" />
+			<Add option="../../../libs/poco/lib/win_cb/libPocoNetmt.a" />
+			<Add option="../../../libs/poco/lib/win_cb/libPocoUtilmt.a" />
+			<Add option="../../../libs/poco/lib/win_cb/libPocoXMLmt.a" />
+			<Add option="../../../libs/poco/lib/win_cb/libPocoFoundationmt.a" />
+			<Add option="../../../addons/ofxOsc/libs/oscpack/lib/win_cb/oscpack.a" />
+			<Add option="-lopengl32" />
+			<Add option="-lglu32" />
+			<Add option="-ldsound" />
+			<Add option="-lwinmm" />
+			<Add option="-ldxguid" />
+			<Add option="-lstrmbase" />
+			<Add option="-lstrmiids" />
+			<Add option="-lz" />
+			<Add option="-luuid" />
+			<Add option="-lole32" />
+			<Add option="-loleaut32" />
+			<Add option="-lsetupapi" />
+			<Add option="-lwsock32" />
+			<Add option="-lws2_32" />
+			<Add option="-lIphlpapi" />
+			<Add option="../../../addons_nonCore/ofxEOSRemoteCapture/lib/lib/EDSDK.lib" />
+			<Add library="src\openNI\Lib\openNI.lib" />
+			<Add library="..\..\..\addons\ofxOsc\libs\oscpack\lib\win_cb\oscpack.a" />
+		</Linker>
+		<ExtraCommands>
+			<Add after='xcopy /e /i /y &quot;$(PROJECT_DIR)..\..\..\export\win_cb\*.dll&quot;  &quot;$(PROJECT_DIR)bin&quot;' />
+			<Add after='cmd /c if not exist &quot;$(PROJECT_DIR)bin/data&quot; mkdir &quot;$(PROJECT_DIR)bin/data&quot;' />
+			<Mode after="always" />
+		</ExtraCommands>
+		<Unit filename="..\..\..\addons\ofxOpenCv\src\ofxCvBlob.h" />
+		<Unit filename="..\..\..\addons\ofxOpenCv\src\ofxCvColorImage.h" />
+		<Unit filename="..\..\..\addons\ofxOpenCv\src\ofxCvConstants.h" />
+		<Unit filename="..\..\..\addons\ofxOpenCv\src\ofxCvContourFinder.h" />
+		<Unit filename="..\..\..\addons\ofxOpenCv\src\ofxCvFloatImage.h" />
+		<Unit filename="..\..\..\addons\ofxOpenCv\src\ofxCvGrayscaleImage.h" />
+		<Unit filename="..\..\..\addons\ofxOpenCv\src\ofxCvImage.h" />
+		<Unit filename="..\..\..\addons\ofxOpenCv\src\ofxCvMain.h" />
+		<Unit filename="..\..\..\addons\ofxOpenCv\src\ofxCvShortImage.h" />
+		<Unit filename="..\..\..\addons\ofxOpenCv\src\ofxOpenCv.h" />
+		<Unit filename="..\..\..\addons\ofxThread\src\ofxThread.cpp" />
+		<Unit filename="..\..\..\addons\ofxThread\src\ofxThread.h" />
+		<Unit filename="..\..\..\addons\ofxXmlSettings\libs\tinyxml.cpp" />
+		<Unit filename="..\..\..\addons\ofxXmlSettings\libs\tinyxml.h" />
+		<Unit filename="..\..\..\addons\ofxXmlSettings\libs\tinyxmlerror.cpp" />
+		<Unit filename="..\..\..\addons\ofxXmlSettings\libs\tinyxmlparser.cpp" />
+		<Unit filename="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.cpp" />
+		<Unit filename="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.h" />
+		<Unit filename="..\..\..\addons_nonCore\ofxCvHaarFinder\src\ofxCvHaarFinder.h" />
+		<Unit filename="..\..\..\addons_nonCore\ofxEOSRemoteCapture\lib\include\EDSDK.h" />
+		<Unit filename="..\..\..\addons_nonCore\ofxEOSRemoteCapture\lib\include\EDSDKErrors.h" />
+		<Unit filename="..\..\..\addons_nonCore\ofxEOSRemoteCapture\lib\include\EDSDKTypes.h" />
+		<Unit filename="..\..\..\addons_nonCore\ofxEOSRemoteCapture\src\ofxEOSRemoteCapture.cpp" />
+		<Unit filename="..\..\..\addons_nonCore\ofxEOSRemoteCapture\src\ofxEOSRemoteCapture.h" />
+		<Unit filename="..\..\..\addons_nonCore\ofxHttpUtils\src\ofxHttpTypes.h" />
+		<Unit filename="..\..\..\addons_nonCore\ofxHttpUtils\src\ofxHttpUtils.cpp" />
+		<Unit filename="..\..\..\addons_nonCore\ofxHttpUtils\src\ofxHttpUtils.h" />
+		<Unit filename="..\..\..\addons_nonCore\ofxImage\src\ofxImage.cpp" />
+		<Unit filename="..\..\..\addons_nonCore\ofxImage\src\ofxImage.h" />
+		<Unit filename="..\..\..\addons_nonCore\ofxMSAInteractiveObject\src\ofxMSAInteractiveObject.cpp" />
+		<Unit filename="..\..\..\addons_nonCore\ofxMSAInteractiveObject\src\ofxMSAInteractiveObject.h" />
+		<Unit filename="..\..\..\addons_nonCore\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiButton.cpp" />
+		<Unit filename="..\..\..\addons_nonCore\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiButton.h" />
+		<Unit filename="..\..\..\addons_nonCore\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiColorPicker.cpp" />
+		<Unit filename="..\..\..\addons_nonCore\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiColorPicker.h" />
+		<Unit filename="..\..\..\addons_nonCore\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiComboBox.cpp" />
+		<Unit filename="..\..\..\addons_nonCore\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiComboBox.h" />
+		<Unit filename="..\..\..\addons_nonCore\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiContent.cpp" />
+		<Unit filename="..\..\..\addons_nonCore\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiContent.h" />
+		<Unit filename="..\..\..\addons_nonCore\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiFPSCounter.cpp" />
+		<Unit filename="..\..\..\addons_nonCore\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiFPSCounter.h" />
+		<Unit filename="..\..\..\addons_nonCore\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiMovieSlider.cpp" />
+		<Unit filename="..\..\..\addons_nonCore\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiMovieSlider.h" />
+		<Unit filename="..\..\..\addons_nonCore\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiQuadWarp.cpp" />
+		<Unit filename="..\..\..\addons_nonCore\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiQuadWarp.h" />
+		<Unit filename="..\..\..\addons_nonCore\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiSlider2d.cpp" />
+		<Unit filename="..\..\..\addons_nonCore\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiSlider2d.h" />
+		<Unit filename="..\..\..\addons_nonCore\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiSliderBase.h" />
+		<Unit filename="..\..\..\addons_nonCore\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiSliderFloat.h" />
+		<Unit filename="..\..\..\addons_nonCore\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiSliderInt.h" />
+		<Unit filename="..\..\..\addons_nonCore\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiTitle.cpp" />
+		<Unit filename="..\..\..\addons_nonCore\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiTitle.h" />
+		<Unit filename="..\..\..\addons_nonCore\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiToggle.cpp" />
+		<Unit filename="..\..\..\addons_nonCore\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiToggle.h" />
+		<Unit filename="..\..\..\addons_nonCore\ofxSimpleGuiToo\src\ofxSimpleGuiConfig.cpp" />
+		<Unit filename="..\..\..\addons_nonCore\ofxSimpleGuiToo\src\ofxSimpleGuiConfig.h" />
+		<Unit filename="..\..\..\addons_nonCore\ofxSimpleGuiToo\src\ofxSimpleGuiControl.cpp" />
+		<Unit filename="..\..\..\addons_nonCore\ofxSimpleGuiToo\src\ofxSimpleGuiControl.h" />
+		<Unit filename="..\..\..\addons_nonCore\ofxSimpleGuiToo\src\ofxSimpleGuiIncludes.h" />
+		<Unit filename="..\..\..\addons_nonCore\ofxSimpleGuiToo\src\ofxSimpleGuiPage.cpp" />
+		<Unit filename="..\..\..\addons_nonCore\ofxSimpleGuiToo\src\ofxSimpleGuiPage.h" />
+		<Unit filename="..\..\..\addons_nonCore\ofxSimpleGuiToo\src\ofxSimpleGuiToo.cpp" />
+		<Unit filename="..\..\..\addons_nonCore\ofxSimpleGuiToo\src\ofxSimpleGuiToo.h" />
+		<Unit filename="..\..\..\addons_nonCore\ofxSimpleGuiToo\src\ofxSimpleGuiValueControl.cpp" />
+		<Unit filename="..\..\..\addons_nonCore\ofxSimpleGuiToo\src\ofxSimpleGuiValueControl.h" />
+		<Unit filename="src\CanonCameraWrapper.cpp" />
+		<Unit filename="src\CanonCameraWrapper.h" />
+		<Unit filename="src\canonCapture.cpp" />
+		<Unit filename="src\canonCapture.h" />
+		<Unit filename="src\countDownObject.cpp" />
+		<Unit filename="src\countDownObject.h" />
+		<Unit filename="src\eventsObject.h" />
+		<Unit filename="src\imagesPlayback.cpp" />
+		<Unit filename="src\imagesPlayback.h" />
+		<Unit filename="src\lceInterface.cpp" />
+		<Unit filename="src\lceInterface.h" />
+		<Unit filename="src\lceInterfaceObject.cpp" />
+		<Unit filename="src\lceInterfaceObject.h" />
+		<Unit filename="src\main.cpp">
+			<Option virtualFolder="src\" />
+		</Unit>
+		<Unit filename="src\ofQTVideoSaverWrapper.cpp" />
+		<Unit filename="src\ofQTVideoSaverWrapper.h" />
+		<Unit filename="src\ofQtVideoSaver.cpp" />
+		<Unit filename="src\ofQtVideoSaver.h" />
+		<Unit filename="src\ofTracker.h" />
+		<Unit filename="src\openNIWrapper.cpp" />
+		<Unit filename="src\openNIWrapper.h" />
+		<Unit filename="src\openNI\Include\IXnNodeAllocator.h" />
+		<Unit filename="src\openNI\Include\Win32\XnOSWin32.h" />
+		<Unit filename="src\openNI\Include\Win32\XnPlatformWin32.h" />
+		<Unit filename="src\openNI\Include\XnBaseNode.h" />
+		<Unit filename="src\openNI\Include\XnCallback.h" />
+		<Unit filename="src\openNI\Include\XnCodecIDs.h" />
+		<Unit filename="src\openNI\Include\XnContext.h" />
+		<Unit filename="src\openNI\Include\XnCppWrapper.h" />
+		<Unit filename="src\openNI\Include\XnDataTypes.h" />
+		<Unit filename="src\openNI\Include\XnEnumerationErrors.h" />
+		<Unit filename="src\openNI\Include\XnEvent.h" />
+		<Unit filename="src\openNI\Include\XnFPSCalculator.h" />
+		<Unit filename="src\openNI\Include\XnGeneralBuffer.h" />
+		<Unit filename="src\openNI\Include\XnHash.h" />
+		<Unit filename="src\openNI\Include\XnInternalDefs.h" />
+		<Unit filename="src\openNI\Include\XnLicensing.h" />
+		<Unit filename="src\openNI\Include\XnList.h" />
+		<Unit filename="src\openNI\Include\XnLog.h" />
+		<Unit filename="src\openNI\Include\XnMacros.h" />
+		<Unit filename="src\openNI\Include\XnModuleCppInterface.h" />
+		<Unit filename="src\openNI\Include\XnModuleCppRegistratration.h" />
+		<Unit filename="src\openNI\Include\XnModuleInterface.h" />
+		<Unit filename="src\openNI\Include\XnNode.h" />
+		<Unit filename="src\openNI\Include\XnNodeAllocator.h" />
+		<Unit filename="src\openNI\Include\XnOS.h" />
+		<Unit filename="src\openNI\Include\XnOSCpp.h" />
+		<Unit filename="src\openNI\Include\XnOpenNI.h" />
+		<Unit filename="src\openNI\Include\XnPlatform.h" />
+		<Unit filename="src\openNI\Include\XnPrdNode.h" />
+		<Unit filename="src\openNI\Include\XnPrdNodeInfo.h" />
+		<Unit filename="src\openNI\Include\XnPrdNodeInfoList.h" />
+		<Unit filename="src\openNI\Include\XnProfiling.h" />
+		<Unit filename="src\openNI\Include\XnPropNames.h" />
+		<Unit filename="src\openNI\Include\XnQueries.h" />
+		<Unit filename="src\openNI\Include\XnQueue.h" />
+		<Unit filename="src\openNI\Include\XnScheduler.h" />
+		<Unit filename="src\openNI\Include\XnStack.h" />
+		<Unit filename="src\openNI\Include\XnStatus.h" />
+		<Unit filename="src\openNI\Include\XnStatusCodes.h" />
+		<Unit filename="src\openNI\Include\XnStatusRegister.h" />
+		<Unit filename="src\openNI\Include\XnStringsHash.h" />
+		<Unit filename="src\openNI\Include\XnThreadSafeQueue.h" />
+		<Unit filename="src\openNI\Include\XnTypes.h" />
+		<Unit filename="src\openNI\Include\XnUSB.h" />
+		<Unit filename="src\openNI\Include\XnUtils.h" />
+		<Unit filename="src\openNI\Include\XnVersion.h" />
+		<Unit filename="src\testApp.cpp">
+			<Option virtualFolder="src\" />
+		</Unit>
+		<Unit filename="src\testApp.h">
+			<Option virtualFolder="src\" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
